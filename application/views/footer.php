@@ -126,6 +126,11 @@
     <!-- main JS
         ============================================ -->
     <script src="<?php echo base_url(); ?>horizontal/js/main.js"></script>
+    <!-- form validate JS
+        ============================================ -->
+    <script src="<?php echo base_url(); ?>horizontal/js/jquery.form.min.js"></script>
+    <script src="<?php echo base_url(); ?>horizontal/js/jquery.validate.min.js"></script>
+    <script src="<?php echo base_url(); ?>horizontal/js/form-active.js"></script>
 
 
 

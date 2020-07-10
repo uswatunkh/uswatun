@@ -95,7 +95,9 @@
     <!-- modernizr JS
         ============================================ -->
     <script src="<?php echo base_url(); ?>horizontal/js/vendor/modernizr-2.8.3.min.js"></script>
-
+    <!-- form CSS
+        ============================================ -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>horizontal/css/form.css">
     
     
 </head>
@@ -260,7 +262,7 @@
                                     </li>
                                     <li><a href="<?php echo base_url(); ?>horizontal/#"><span class="adminpro-icon adminpro-settings author-log-ic"></span>Settings</a>
                                     </li>
-                                    <li><a href="<?php echo base_url(); ?>horizontal/#"><span class="adminpro-icon adminpro-locked author-log-ic"></span>Log Out</a>
+                                    <li><a href="<?php echo base_url(); ?>login/index"><span class="adminpro-icon adminpro-locked author-log-ic"></span>Log Out</a>
                                     </li>
                                 </ul>
                             </li>
